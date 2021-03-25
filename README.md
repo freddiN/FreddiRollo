@@ -11,14 +11,23 @@ http://IP/?direction=right&count=7150
 
 You need to test yourself how many steps are needed to fully move your blinds up and down, I needed 7150.
 
+# features
+- simple http interface other devices can connect to easily
+- no wifi manager or AP setup
+- no stepper library
+- direct drive without the need of gears
+- simple html page interface without jQuery or anything external
+
 # BOM
-- Wemos D1 or any other ESP8266
-- ULN2003 motor driver
-- 28BYJ-48 stepper motor 12V
-- LM2596 12V to 5V step down module
-- 12V power supply
+- Wemos D1 or any other ESP8266 (~1,60€)
+- ULN2003 motor driver (~0,50€)
+- 28BYJ-48 stepper motor 12V (~1,50€)
+- LM2596 12V-to-5V step down module (0,80€)
+- 12V power supply (~6€)
 - a few 3D printed parts
 - cables and soldering iron
+
+It's around 5€ per window blind plus one pwoer supply.
 
 # electrical wiring
 
@@ -26,7 +35,7 @@ TODO:
 - 12V from the power supply to step down input
 - 12V rom the power supply to stepper
 - configure step down module to putput 5V
-- 5V step down module output to Wemos ground and 5V
+- step down module output (5V) to Wemos ground and 5V
 - Wemos D5,D6,D7,D8 to stepper IN1,IN2,IN3,IN4 SWAPCABLES!!!!!
 
 # 3D printed parts / STLs
@@ -45,8 +54,8 @@ You can find the STLs on Thingiverse here: (TODO)
 
 # Arduino setup
 libraries needed:
-- ESP8266WebServer
-- ESP8266WiFi
+- ESP8266WebServer (to open up a webserver)
+- ESP8266WiFi (to connect to your local wifi via SSID and password)
 
 Note the absence of any stepper library here, since I couldnt find a working one. The low level solution of manually outputting the digital pins in a 8 step fashion worked and easily creates enough torque to move the blind.
 
