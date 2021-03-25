@@ -47,7 +47,7 @@ Since I reuse the window brackets from the original blinds, I needed to print so
 - box bottom (houses the wemos, step down module and the driver)
 - box top 
 
-You can find the STLs on Thingiverse here: (TODO)
+You can find the STLs on Thingiverse here: https://www.thingiverse.com/thing:4806384
 
 # assemblement
 (TODO: pictures)
