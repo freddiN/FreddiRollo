@@ -1,15 +1,15 @@
 # FreddiRollo
 
-Control your blinds with a little motor via an ESP8266 (I use a Wemos D1).
+Control your blinds with a little direct driven motor via an ESP8266 without any stepper library.
 
 Upon startup the Wemos connects to your wifi and starts a webserver at port 80.
-YOu can either connect to it and use the buttons to move the blinds, or simply GET the parameter "direction" (left, right) and "count" (amount of steps) to the server.
+You can either connect to the webserver and use simple html buttons to move the blinds, or GET the parameters "direction" (left, right) and "count" (amount of steps) to the server.
 
-For example:  
+Example:  
 http://IP/?direction=left&count=256  
 http://IP/?direction=right&count=7150
 
-You need to test yourself how many steps you need to fully move your blinds up and down, I needed 7150.
+You need to test yourself how many steps are needed to fully move your blinds up and down, I needed 7150.
 
 # BOM
 - Wemos D1 or any other ESP8266
@@ -18,7 +18,7 @@ You need to test yourself how many steps you need to fully move your blinds up a
 - LM2596 12V to 5V step down module
 - 12V power supply
 - a few 3D printed parts
-- cables andsoldering iron
+- cables and soldering iron
 
 # electrical wiring
 
@@ -48,7 +48,9 @@ libraries needed:
 - ESP8266WebServer
 - ESP8266WiFi
 
-settings to upload to the Wemos D1: (TODO)
+Note the absence of any stepper library here, since I couldnt find a working one. The low level solution of manually outputting the digital pins in a 8 step fashion worked and easily creates enough torque to move the blind.
+
+Settings to upload to the Wemos D1: (TODO)
 
 # codechanges
 You need to do the following codechanges before flashing to your Wemos:
