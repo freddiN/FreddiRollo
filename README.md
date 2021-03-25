@@ -27,7 +27,7 @@ You need to test yourself how many steps are needed to fully move your blinds up
 - a few 3D printed parts
 - cables and soldering iron
 
-It's around 5€ per window blind plus one pwoer supply.
+It's around 5€ per window blind plus one pwoer supply. I got most of the parts from AliExpress.
 
 # electrical wiring
 
