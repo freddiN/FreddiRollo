@@ -85,7 +85,7 @@ I glued a 15mm magnet to the box top to attach it to my ceiling, so there is a l
 File > Preferences, look for "additional board manager urls", and insert:  
 http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
-To upload use the folowing configuration:
+To upload use the following configuration:  
 ![image](https://user-images.githubusercontent.com/14030572/112668502-df56a680-8e5e-11eb-8648-4972c028e9bf.png)
 
 ## libraries
