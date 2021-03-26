@@ -20,9 +20,9 @@ You need to test yourself how many steps are needed to fully move your blinds up
 
 # BOM
 - Wemos D1 or any other ESP8266 (~1,60€)
-- ULN2003 motor driver (~0,50€)
+- ULN2003 stepper motor driver (~0,50€)
 - 28BYJ-48 stepper motor 12V (~1,50€)
-- LM2596 12V-to-5V step down module (0,80€)
+- LM2596 12V-to-5V power converter (0,80€)
 - 12V power supply (~6€)
 - a few 3D printed parts
 - cables and soldering iron
