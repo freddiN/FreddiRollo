@@ -42,19 +42,41 @@ It's around 5€ per window blind plus one pwoer supply. I got most of the parts
 Important: The two middle stepper cables need to be crossed: D5,D6,D7,D8 connect to IN1,**IN3,IN2**,IN4. Either that or you need change the code to reflect that.
 This has to do with the way the electromagents within the stepper motor operate ... unfortunately I found this very intransparent and is different from library to library ... but since I dont use any stepper library: Cross the middle cables!
 
-# 3D printed parts / STLs
-Since I reuse the window brackets from the original blinds, I needed to print some adapters:
+# original parts
 
-- motor case (houses the stepper motor and fits on the original window clamp)
-- motor connector (connects the motor with the blind)
-- rotator connector (fits on the second window clamp and connects to the blind on the opposite side)
-- box bottom (houses the wemos, step down module and the driver)
-- box top 
+I resued the clamps and rotator connector
+![original_parts](https://user-images.githubusercontent.com/14030572/112665220-1c209e80-8e5b-11eb-8f0e-ae68ebc8df6d.jpg)
+
+
+# 3D printed parts / STLs
+Since I reuse the window brackets from the original blinds, I needed to print some adapters.
 
 You can find the STLs on Thingiverse here: https://www.thingiverse.com/thing:4806384
 
+## motor case 
+houses the stepper motor and fits on the original window clamp
+![motor_case](https://user-images.githubusercontent.com/14030572/112664833-b03e3600-8e5a-11eb-85c6-72a9b8cbdd0e.jpg)
+
+## motor connector
+connects the motor with the blind
+![motor_connector](https://user-images.githubusercontent.com/14030572/112664869-be8c5200-8e5a-11eb-9199-b0edb66e4972.jpg)
+
+## rotator connector
+fits on the second window clamp and connects to the blind on the opposite side
+![blinds_rotator](https://user-images.githubusercontent.com/14030572/112665079-f5fafe80-8e5a-11eb-87b8-c28c05921414.jpg)
+
+## box
+houses the wemos, step down module and the driver
+![box](https://user-images.githubusercontent.com/14030572/112665117-001cfd00-8e5b-11eb-938c-d02f5a8438c7.jpg)
+
+
 # assemblement
-(TODO: pictures)
+
+![window_clamps](https://user-images.githubusercontent.com/14030572/112665411-512cf100-8e5b-11eb-82b8-1fe0fc88ffff.jpg)
+![blinds_motor](https://user-images.githubusercontent.com/14030572/112665433-58ec9580-8e5b-11eb-8b18-0ab959c9f620.jpg)
+![blinds_rotator](https://user-images.githubusercontent.com/14030572/112665440-5ab65900-8e5b-11eb-9ebc-35fa29206e85.jpg)
+![fully_assembled](https://user-images.githubusercontent.com/14030572/112665483-673ab180-8e5b-11eb-816e-00fd59eb9da1.jpg)
+
 
 # Arduino setup
 libraries needed:
