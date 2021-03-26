@@ -31,12 +31,16 @@ It's around 5€ per window blind plus one pwoer supply. I got most of the parts
 
 # electrical wiring
 
-TODO:
-- 12V from the power supply to step down input
-- 12V rom the power supply to stepper
-- configure step down module to putput 5V
-- step down module output (5V) to Wemos ground and 5V
-- Wemos D5,D6,D7,D8 to stepper IN1,IN2,IN3,IN4 SWAPCABLES!!!!!
+![wiring](https://user-images.githubusercontent.com/14030572/112663888-9f40f500-8e59-11eb-9b0c-0f3eda713c63.jpg)
+
+- 12V from the power supply to power converter input
+- 12V from the power supply to stepper driver
+- IMPORTANT: configure power converter to putput 5V!
+- power converter output (5V) to Wemos D1
+- Wemos D5,D6,D7,D8 to stepper IN1,IN3,IN2,IN4
+
+Important: The two middle stepper cables need to be crossed: D5,D6,D7,D8 connect to IN1,**IN3,IN2**,IN4. Either that or you need change the code to reflect that.
+This has to do with the way the electromagents within the stepper motor operate ... unfortunately I found this very intransparent and is different from library to library ... but since I dont use any stepper library: Cross the middle cables!
 
 # 3D printed parts / STLs
 Since I reuse the window brackets from the original blinds, I needed to print some adapters:
