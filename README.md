@@ -85,6 +85,7 @@ I glued a 15mm magnet to the box top to attach it to my ceiling, so there is a l
 File > Preferences, look for "additional board manager urls", and insert:  
 http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
+To upload use the folowing configuration:
 ![image](https://user-images.githubusercontent.com/14030572/112668502-df56a680-8e5e-11eb-8648-4972c028e9bf.png)
 
 ## libraries
@@ -93,9 +94,6 @@ Sketch, Include library, manage libraries and add the following two:
 - ESP8266WiFi (to connect to your local wifi via SSID and password)
 
 Note the absence of any stepper library here, since I couldnt find a working one. The low level solution of manually outputting the digital pins in a 8 step fashion worked and easily creates enough torque to move the blind.
-
-Settings to upload to the Wemos D1:
-![image](https://user-images.githubusercontent.com/14030572/112669238-c00c4900-8e5f-11eb-9739-d19b1db96638.png)
 
 # codechanges
 You need to do the following codechanges before flashing to your Wemos:
