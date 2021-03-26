@@ -69,6 +69,7 @@ fits on the second window clamp and connects to the blind on the opposite side
 houses the wemos, step down module and the driver
 ![box](https://user-images.githubusercontent.com/14030572/112665117-001cfd00-8e5b-11eb-938c-d02f5a8438c7.jpg)
 
+I glued a 15mm magnet to the box top to attach it to my ceiling, so there is a little circle for that.
 
 # assemblement
 
