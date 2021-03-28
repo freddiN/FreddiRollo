@@ -6,8 +6,8 @@
 #define wifiHostname "Rollo_01"
 
 #define PIN_IN1 D5
-#define PIN_IN2 D7
-#define PIN_IN3 D6
+#define PIN_IN2 D6
+#define PIN_IN3 D7
 #define PIN_IN4 D8
 
 unsigned int rotationSpeed = 1500;  // at least 1200
