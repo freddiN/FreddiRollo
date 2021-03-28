@@ -37,10 +37,7 @@ It's around 5€ per window blind plus one pwoer supply. I got most of the parts
 - 12V from the power supply to stepper driver
 - IMPORTANT: configure power converter to putput 5V!
 - power converter output (5V) to Wemos D1
-- Wemos D5,D6,D7,D8 to stepper IN1,IN3,IN2,IN4
-
-Important: The two middle stepper cables need to be crossed: D5,D6,D7,D8 connect to IN1,**IN3,IN2**,IN4. Either that or you need change the code to reflect that.
-This has to do with the way the electromagents within the stepper motor operate ... unfortunately I found this very intransparent and is different from library to library ... but since I dont use any stepper library: Cross the middle cables!
+- Wemos D5,D6,D7,D8 to stepper IN1,IN2,IN3,IN4
 
 # original parts
 
