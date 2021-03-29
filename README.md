@@ -27,7 +27,7 @@ You need to test yourself how many steps are needed to fully move your blinds up
 - a few 3D printed parts
 - cables and soldering iron
 
-It's around 5€ per window blind plus one pwoer supply. I got most of the parts from AliExpress.
+It's around 5€ per window blind plus one power supply. I got most of the parts from AliExpress.
 
 # electrical wiring
 
@@ -86,7 +86,7 @@ To upload use the following configuration:
 ![image](https://user-images.githubusercontent.com/14030572/112668502-df56a680-8e5e-11eb-8648-4972c028e9bf.png)
 
 ## libraries
-Sketch, Include library, manage libraries and add the following two:
+"Sketch", "Include library", "manage libraries" and add the following two:
 - ESP8266WebServer (to open up a webserver)
 - ESP8266WiFi (to connect to your local wifi via SSID and password)
 
@@ -95,6 +95,6 @@ Note the absence of any stepper library here, since I couldnt find a working one
 # codechanges
 You need to do the following codechanges before flashing to your Wemos:
 
-- configure your wifi details in lines 4-6
+- configure your wifi credentials in lines 4-6
 - configure the used digital ports in lines 8-11
 - play around with the rotationSpeed in line 13
