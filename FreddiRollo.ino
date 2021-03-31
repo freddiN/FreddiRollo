@@ -135,7 +135,8 @@ void handleNotFound() {
 }
 
 void connectToWifi() {
-  Serial.print("Connecting..."); 
+  Serial.print("Connecting...");
+  WiFi.persistent(false);
   WiFi.hostname(wifiHostname);
   WiFi.begin(wifiSsid, wifiPassword);  
   //try to connect 20 times 0.5 seconds apart -> for 10 seconds
