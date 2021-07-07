@@ -41,7 +41,7 @@ It's around 5€ per window blind plus one power supply. I got most of the parts
 
 # original parts
 
-I resued the clamps and rotator connector
+I reused the clamps and rotator connector
 ![original_parts](https://user-images.githubusercontent.com/14030572/112665220-1c209e80-8e5b-11eb-8f0e-ae68ebc8df6d.jpg)
 
 
